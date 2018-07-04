@@ -341,7 +341,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('TooLong',      s:syntax_accent,  '',                   '')
   call <sid>X('WildMenu',     s:syntax_fg,      s:uno_4,              '')
   call <sid>X('Normal',       s:syntax_fg,      s:syntax_bg,          '')
-  call <sid>X('SignColumn',   '',               s:uno_4,              '')
+  call <sid>X('SignColumn',   '',               s:syntax_gutter,      '')
   call <sid>X('Special',      s:duo_2,          '',                   '')
   " }}}
 
